@@ -1,7 +1,7 @@
-###[Print a list of integers]
+**###[Print a list of integers]*
 PROTOTYPE :def print_list_integer(my_list=[]):
 A functon that prints a list of integers.
-###[Secure access to an element in a list]
+***###[Secure access to an element in a list]*
 Write a function that retrieves an element from a list like in C.
 Prototype: def element_at(my_list, idx):
 ###[2. Replace element]
