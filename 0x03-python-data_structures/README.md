@@ -1,15 +1,15 @@
-**###[Print a list of integers]*
-PROTOTYPE :def print_list_integer(my_list=[]):
+## [Print a list of integers]*
+* **PROTOTYPE :def print_list_integer(my_list=[]):
 A functon that prints a list of integers.
-***###[Secure access to an element in a list]*
+### [Secure access to an element in a list]*
 Write a function that retrieves an element from a list like in C.
-Prototype: def element_at(my_list, idx):
-###[2. Replace element]
+* **Prototype: def element_at(my_list, idx):
+### [2. Replace element]*
 Write a function that replaces an element of a list at a specific position (like in C).
-Prototype: def replace_in_list(my_list, idx, element)
-###[3. Print a list of integers... in reverse!]
+* **Prototype: def replace_in_list(my_list, idx, element)
+### [3. Print a list of integers... in reverse!]
 Write a function that prints all integers of a list, in reverse order.
-Prototype: def print_reversed_list_integer(my_list=[]):
+* **Prototype: def print_reversed_list_integer(my_list=[]):
 ###[4. Replace in a copy]
 Write a function that replaces an element in a list at a specific position without modifying the original list (like in C).
 Prototype: def new_in_list(my_list, idx, element):
