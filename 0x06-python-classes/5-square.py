@@ -3,7 +3,7 @@
 
 
 class Square:
-    """ Created a class Square returns current square area"""
+    """ Created a class Square that prints a square in stdout"""
     def __init__(self, size=0):
         self.size = size
 
@@ -26,6 +26,5 @@ class Square:
     def my_print(self):
         if self.__size == 0:
             print("")
-        
         for r in range(self.__size):
-            print("#"* self.__size) 
+            print("#" * self.__size)
