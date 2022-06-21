@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" create a class Square with attribute size"""
+""" create a class Square with attribute size assigned to a value."""
 
 
 class Square:
