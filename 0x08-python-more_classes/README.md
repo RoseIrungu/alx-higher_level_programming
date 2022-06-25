@@ -1,9 +1,9 @@
 ###  0x08. Python - More Classes and Objects
 ### TASKS
-###[0-rectangle.py](0. Simple rectangle)
+### [0.simple rectangle.py](0-rectangle.py)
 -Write an empty class Rectangle that defines a rectangle:
   -You are not allowed to import any module
-### [1-rectangle.py](1. Real definition of a rectangle)
+### [1. Real definition of a rectangle](1-rectangle.py)
 - Write a class Rectangle that defines a rectangle by: (based on 0-rectangle.py)
   - Private instance attribute: width:
     - property def width(self): to retrieve it
