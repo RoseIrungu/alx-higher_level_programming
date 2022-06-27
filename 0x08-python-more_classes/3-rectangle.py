@@ -4,7 +4,7 @@
 
 class Rectangle:
     """created a class Rectangles, assigning values"""
-    def _init_(self, width=0, height=0):
+    def __init__(self, width=0, height=0):
         self.height = height
         self.width = width
 
@@ -35,15 +35,15 @@ class Rectangle:
         self.__height = value
 
     def area(self):
-        return self._height * self._width
+        return self.__height * self.__width
 
     def perimeter(self):
-        if self._height == 0 or self._width == 0:
+        if self.__height == 0 or self.__width == 0:
             return 0
-        return (self._height + self._width) * 2
+        return (self.__height + self.__width) * 2
 
-    def _str_(self):
-        if self._width == 0 or self._height == 0:
+    def __str__(self):
+        if self.__width == 0 or self.__height == 0:
             return ''
         for z in range(self.__height - 1):
             print("#" * self.__width)
