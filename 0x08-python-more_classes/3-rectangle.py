@@ -1,10 +1,10 @@
 #!/usr/bin/python3
-"""creating class rectangle"""
+"""creating a class called Rectangle"""
 
 
 class Rectangle:
-    """creating a rectangle with dimensions width and height"""
-    def __init__(self, width=0, height=0):
+    """created a class Rectangles, assigning values"""
+    def _init_(self, width=0, height=0):
         self.height = height
         self.width = width
 
@@ -18,6 +18,7 @@ class Rectangle:
             raise TypeError("width must be an integer")
         elif value < 0:
             raise ValueError("width must be >= 0")
+
         self.__width = value
 
     @property
@@ -30,19 +31,20 @@ class Rectangle:
             raise TypeError("height must be an integer")
         elif value < 0:
             raise ValueError("height must be >= 0")
+
         self.__height = value
 
     def area(self):
-        return self.__height * self.__width
+        return self._height * self._width
 
     def perimeter(self):
-        if self.__height == 0 or self.__width == 0:
+        if self._height == 0 or self._width == 0:
             return 0
-        return (self.__height + self.__width) * 2
+        return (self._height + self._width) * 2
 
-    def __str__(self):
-        if self.__height == 0 or self.__width == 0:
-            return " "
-        for r in range(self.__height - 1):
+    def _str_(self):
+        if self._width == 0 or self._height == 0:
+            return ''
+        for z in range(self.__height - 1):
             print("#" * self.__width)
-        return("#" * self.__width)
+        return ("#" * self.__width)
