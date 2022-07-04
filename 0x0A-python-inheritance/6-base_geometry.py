@@ -4,11 +4,10 @@
 """creating an class Base geometry"""
 
 
-from logging import exception
-
-
 class BaseGeometry:
     """base geaomerty has an attribute area"""
 
     def area(self):
+        """ area raises an exception"""
+
         raise Exception("area() is not implemented")
