@@ -16,4 +16,4 @@ class MyInt(int):
     def __ne__(self, other):
         """ returns False if they are not equal"""
 
-        return False
+        return True
