@@ -1,2 +1,3 @@
 -- database questions to solve
-SHOW DATABASE;
+-- A script tha lists all db's
+SHOW DATABASES;
