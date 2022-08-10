@@ -1,0 +1,3 @@
+-- Creating a new user and givin them privillages
+CREATE USER `user_0d_1`@`localhost` IDENTIFIED BY `user_0d_1_pwd`;
+GRANT ALL PRIVILLAGES ON *.* TO `user_0d_1`@`localhost` WITH GRANT OPTION;
